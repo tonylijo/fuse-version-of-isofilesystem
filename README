@@ -1,0 +1,19 @@
+install the following packages for the proper compilation
+--------------------------------------------------------
+1.libfuse-dev
+2.libglib2.0-dev
+
+compilation
+-----------
+just type make 
+#make
+
+discription 
+-----------
+if the compilation is done sucsessfully you will get a file named isomount in your current directory.
+
+testing
+------
+#mkdir mountpoint
+#./isomount mountpoint logo.iso
+the isofilesystem image will be mounted to the directory mountpoint.

@@ -1,0 +1,232 @@
+
+ main.c iso_readdir(path="/",buf=0x00000000000000000000000000000000000000000000000000000000000000000000000008d192d0,filler=0xb7f2a8b0)
+
+isofs_readdir(path="/",buf=0x00000000000000000000000000000000000000000000000000000000000000000000000008d192d0,filler=0xb7f2a8b0)
+ino->record 0x08d193b0 
+calling filler with name .
+printing real_path:/.
+calling g_hash_table with ÿ%Äh inode record 0x08d193b0
+ino->record 0x08d19918 
+calling filler with name ..
+printing real_path:/..
+calling g_hash_table with ÿ%Äh inode record 0x08d19918
+ino->record 0x08d199e0 
+calling filler with name ANTI_KOC.PY;1
+printing real_path:/ANTI_KOC.PY;1
+calling g_hash_table with ÿ%Äh inode record 0x08d199e0
+ino->record 0x08d19ae0 
+calling filler with name CESARO_F.PY;1
+printing real_path:/CESARO_F.PY;1
+calling g_hash_table with ÿ%Äh inode record 0x08d19ae0
+ino->record 0x08d19bc8 
+calling filler with name README.;1
+printing real_path:/README.;1
+calling g_hash_table with ÿ%Äh inode record 0x08d19bc8
+ino->record 0x08d19c90 
+calling filler with name SNOWF000.PY;1
+printing real_path:/SNOWF000.PY;1
+calling g_hash_table with ÿ%Äh inode record 0x08d19c90
+ino->record 0x08d19d90 
+calling filler with name SNOWF001.PY;1
+printing real_path:/SNOWF001.PY;1
+calling g_hash_table with ÿ%Äh inode record 0x08d19d90
+ino->record 0x08d19e78 
+calling filler with name SNOWFLAK.PY;1
+printing real_path:/SNOWFLAK.PY;1
+calling g_hash_table with ÿ%Äh inode record 0x08d19e78
+ino->record 0x08d19f60 
+calling filler with name TURTLE.PY;1
+printing real_path:/TURTLE.PY;1
+calling g_hash_table with ÿ%Äh inode record 0x08d19f60
+ino->record 0x08d1a030 
+calling filler with name _GIT
+printing real_path:/_GIT
+calling g_hash_table with ÿ%Äh inode record 0x08d1a030
+
+ main.c iso_readdir(path="/",buf=0x00000000000000000000000000000000000000000000000000000000000000000000000008d19248,filler=0xb7f2a8b0)
+
+isofs_readdir(path="/",buf=0x00000000000000000000000000000000000000000000000000000000000000000000000008d19248,filler=0xb7f2a8b0)
+ino->record 0x08d19510 
+calling filler with name .
+printing real_path:/.
+ino->record 0x08d19548 
+calling filler with name ..
+printing real_path:/..
+ino->record 0x08d19580 
+calling filler with name ANTI_KOC.PY;1
+printing real_path:/ANTI_KOC.PY;1
+ino->record 0x08d195d8 
+calling filler with name CESARO_F.PY;1
+printing real_path:/CESARO_F.PY;1
+ino->record 0x08d19618 
+calling filler with name README.;1
+printing real_path:/README.;1
+ino->record 0x08d19640 
+calling filler with name SNOWF000.PY;1
+printing real_path:/SNOWF000.PY;1
+ino->record 0x08d19698 
+calling filler with name SNOWF001.PY;1
+printing real_path:/SNOWF001.PY;1
+ino->record 0x08d196d8 
+calling filler with name SNOWFLAK.PY;1
+printing real_path:/SNOWFLAK.PY;1
+ino->record 0x08d19718 
+calling filler with name TURTLE.PY;1
+printing real_path:/TURTLE.PY;1
+ino->record 0x08d19740 
+calling filler with name _GIT
+printing real_path:/_GIT
+
+isofs_readdir(path="/",buf=0x00000000000000000000000000000000000000000000000000000000000000000000000000000000,filler=0x00000000)
+ino->record 0x08d1a280 
+calling filler with name .
+printing real_path:/.
+ino->record 0x08d1a2a8 
+calling filler with name ..
+printing real_path:/..
+ino->record 0x08d19828 
+calling filler with name ANTI_KOC.PY;1
+printing real_path:/ANTI_KOC.PY;1
+ino->record 0x08d19850 
+calling filler with name CESARO_F.PY;1
+printing real_path:/CESARO_F.PY;1
+ino->record 0x08d1a190 
+calling filler with name README.;1
+printing real_path:/README.;1
+ino->record 0x08d1a1b8 
+calling filler with name SNOWF000.PY;1
+printing real_path:/SNOWF000.PY;1
+ino->record 0x08d1a090 
+calling filler with name SNOWF001.PY;1
+printing real_path:/SNOWF001.PY;1
+ino->record 0x08d1a480 
+calling filler with name SNOWFLAK.PY;1
+printing real_path:/SNOWFLAK.PY;1
+ino->record 0x08d1a4a8 
+calling filler with name TURTLE.PY;1
+printing real_path:/TURTLE.PY;1
+ino->record 0x08d1a4d0 
+calling filler with name _GIT
+printing real_path:/_GIT
+i am now in read_block
+malloced .....
+read_raw_block.....
+buffer is now ....'''to draw the anti koch snowflake curve'''
+from turtle import *
+Tur1 = turtlemove(1000,1000)
+
+def koch_snow_flake_production(t,length,angle):
+	'''replace each of the forward movement with a new production
+	F -> F-F++F-F'''
+	
+	t.fw(length)
+	t.lt(angle)
+	t.fw(length)
+	t.rt(angle*2)
+	t.fw(length)
+	t.lt(angle)
+	t.fw(length)
+
+def koch_snow_flake(t,range,angle):
+	'''recursively replace each of the forward in the 
+	   koch triange with a new production'''
+	
+	if range == 0:
+		koch_snow_flake_production(t,7,angle)
+	else:
+		koch_snow_flake(t,range-1,angle)
+		t.lt(angle)
+		koch_snow_flake(t,range-1,angle)
+		t.rt(angle*2)
+		koch_snow_flake(t,range-1,angle)
+		t.lt(angle)
+		koch_snow_flake(t,range-1,angle)
+
+
+def koch_snowflake_full(t,range1,angle):
+	'''create a full koch snowflake triangle'''
+	
+	for i in range(4):
+		koch_snow_flake(t,range1,angle)
+		t.lt(angle*2)
+Tur1.fw(250)
+Tur1.fw(-580)
+koch_snowflake_full(Tur1,3,60)
+mainloop()
+
+the read_buf is '''to draw the anti koch snowflake curve'''
+from turtle import *
+Tur1 = turtlemove(1000,1000)
+
+def koch_snow_flake_production(t,length,angle):
+	'''replace each of the forward movement with a new production
+	F -> F-F++F-F'''
+	
+	t.fw(length)
+	t.lt(angle)
+	t.fw(length)
+	t.rt(angle*2)
+	t.fw(length)
+	t.lt(angle)
+	t.fw(length)
+
+def koch_snow_flake(t,range,angle):
+	'''recursively replace each of the forward in the 
+	   koch triange with a new production'''
+	
+	if range == 0:
+		koch_snow_flake_production(t,7,angle)
+	else:
+		koch_snow_flake(t,range-1,angle)
+		t.lt(angle)
+		koch_snow_flake(t,range-1,angle)
+		t.rt(angle*2)
+		koch_snow_flake(t,range-1,angle)
+		t.lt(angle)
+		koch_snow_flake(t,range-1,angle)
+
+
+def koch_snowflake_full(t,range1,angle):
+	'''create a full koch snowflake triangle'''
+	
+	for i in range(4):
+		koch_snow_flake(t,range1,angle)
+		t.lt(angle*2)
+Tur1.fw(250)
+Tur1.fw(-580)
+koch_snowflake_full(Tur1,3,60)
+mainloop()
+
+ main.c iso_readdir(path="/",buf=0x00000000000000000000000000000000000000000000000000000000000000000000000008d1a380,filler=0xb7f2a8b0)
+
+isofs_readdir(path="/",buf=0x00000000000000000000000000000000000000000000000000000000000000000000000008d1a380,filler=0xb7f2a8b0)
+ino->record 0x08d1a3d0 
+calling filler with name .
+printing real_path:/.
+ino->record 0x08d194e8 
+calling filler with name ..
+printing real_path:/..
+ino->record 0x08d1a900 
+calling filler with name ANTI_KOC.PY;1
+printing real_path:/ANTI_KOC.PY;1
+ino->record 0x08d1a958 
+calling filler with name CESARO_F.PY;1
+printing real_path:/CESARO_F.PY;1
+ino->record 0x08d1a998 
+calling filler with name README.;1
+printing real_path:/README.;1
+ino->record 0x08d1a9c0 
+calling filler with name SNOWF000.PY;1
+printing real_path:/SNOWF000.PY;1
+ino->record 0x08d1aa18 
+calling filler with name SNOWF001.PY;1
+printing real_path:/SNOWF001.PY;1
+ino->record 0x08d1aa58 
+calling filler with name SNOWFLAK.PY;1
+printing real_path:/SNOWFLAK.PY;1
+ino->record 0x08d1aa98 
+calling filler with name TURTLE.PY;1
+printing real_path:/TURTLE.PY;1
+ino->record 0x08d1aac0 
+calling filler with name _GIT
+printing real_path:/_GIT
